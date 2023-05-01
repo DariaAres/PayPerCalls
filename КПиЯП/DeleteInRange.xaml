@@ -1,0 +1,16 @@
+﻿<Window x:Class="КПиЯП.DeleteInRange"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:КПиЯП"
+         Title="Delete in range" Height="150" Width="223">
+    <Grid>
+        <Label Content="First" HorizontalAlignment="Left" Margin="18,38,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="first" HorizontalAlignment="Left" Margin="55,42,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="35"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="95,67,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label Content="Last" HorizontalAlignment="Left" Margin="114,38,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="last" HorizontalAlignment="Left" Margin="150,42,0,0" TextWrapping="Wrap" Text="1000" VerticalAlignment="Top" Width="35"/>
+
+    </Grid>
+</Window>
